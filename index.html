@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+<!-- googlefonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<!-- favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/98c2f62727.js" crossorigin="anonymous"></script>
+
+<!-- boxicon -->
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+  </script>
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">fardeen</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">Contact me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="myFunction()"><i class='bx bxs-moon' ></i></a>
+      </li>
+
+    </ul>
+  </div>
+  </nav>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Hi, I'm Fardeen</h1>
+        <h3>Frontend developer</h3>
+        <p>good at programming in c, having interest in web development</p>
+        <a href="./Shaik Fardeen_Resume.pdf"><button type="button" class="btn btn-dark btn-lg download-button">Download CV</button></a>
+
+        <button type="button" class="btn btn-light btn-lg download-button">About me</button>
+      </div>
+    <div class="col-lg-6">
+      <img class="title-image" src="images/testimonial2.jpg" alt="iphone-mockup">
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <!-- About -->
+
+  <section id="about">
+      <div class="about_head">
+        <h2>About Me</h2>
+        <span>My introduction</span>
+      </div>
+      <div>
+        <div class="about_img">
+          <img class="about_img" src="images/testimonial2.jpg" alt="" class="about_img">
+        </div>
+      <div class="about_data">
+          <p class="about_description">Web developer with exxtensive knowledge , built amazing projects working in web technologies and ui,ux design, delivering.</p>
+      </div>
+      </div>
+  </section>
+
+<!-- Skills -->
+
+<section class="skills" id="skills">
+  <h2 class="section_subtitle">My Skills</h2>
+  <div class="row">
+  <div class="skills_container col-lg-12">
+    <span><i class='bx bx-caret-right'></i> HTML ⭐⭐⭐⭐</span> <br>
+    <span><i class='bx bx-caret-right'></i> CSS ⭐⭐⭐⭐</span> <br>
+    <span><i class='bx bx-caret-right'></i> BootStrap ⭐⭐⭐</span> <br>
+    <span><i class='bx bx-caret-right'></i> Javascript ⭐⭐</span> <br>
+    <span><i class='bx bx-caret-right'></i> C Programming ⭐⭐</span> <br>
+  </div>
+  </div>
+</section>
+
+
+<!-- Education -->
+
+<section id="Education">
+
+  <div class="edu">
+    <h2 class="edu_title">Qualification</h2>
+    <h5 class="edu_subtitle"><i class='bx bxs-graduation'></i>Education</h5>
+  </div>
+
+  <div class="row">
+    <div class="edu_box col-lg-4">
+        <i class='icon bx bxs-badge-check bx-lg'></i>
+        <h3 class="educ_title">Electronics & Comm Eng</h3>
+        <p class="educ_subtitle">Velammal Institute of technology</p>
+        <div class="edu_calender">
+          <i class='bx bx-calendar'></i>
+          2019-2023
+        </div>
+    </div>
+    <div class="edu_box col-lg-4 ">
+      <i class='icon bx bxs-badge-check bx-lg'></i>
+      <h3>Intermediate</h3>
+      <p class="educ_subtitle">Narayana</p>
+      <div class="edu_calender">
+        <i class='bx bx-calendar'></i>
+        2017-2019
+      </div>
+    </div>
+
+    <div class="edu_box col-lg-4 ">
+      <i class='icon bx bxs-badge-check bx-lg'></i>
+      <h3 class="educ_title">10 Class</h3>
+      <p class="educ_subtitle">Audisankara E.M School</p>
+      <div class="edu_calender">
+        <i class='bx bx-calendar'></i>
+        2016-2017
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <h2 class="proj_head">My Projects</h2>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active" >
+      <h3 class="testimonial-text">Responsive Portfolio</h3>
+      <p class="projtext">The responsive Portfolio is mainly build upon html,css and bootstarp its is a resposive on where u can see my data.</p>
+    </div>
+    <div class="carousel-item" >
+      <h3 class="testimonial-text">Aquaculture Monitoring System</h3>
+      <p class="projtext">This project is build upon using IOT used to help farmers to monitor the parameters required by the farmers </p>
+    </div>
+  </div>
+  <a class="carousel-control-prev caret" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next caret" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+
+  </a>
+</div>
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="interest" id="interest">
+    <h2 class="interest_subtitle">My Interest</h2>
+    <div class="row">
+    <div class="skills_container col-lg-12">
+      <span><i class='bx bx-caret-right'></i>Problem Solving</span> <br>
+      <span><i class='bx bx-caret-right'></i>Programming</span> <br>
+      <span><i class='bx bx-caret-right'></i>Web development</span> <br>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>For upcoming projects please click the below button stay in touch with me. </h3>
+    <button class="btn btn-large btn-dark download-button" type="button"><i class="fab fa-apple"></i> Download</button>
+    <button class="btn btn-large btn-light download-button"type="button"><i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="#"><i class="social-icon fab fa-facebook-f"></i></a>
+    <a href="#"><i class="social-icon fab fa-twitter"></i></a>
+    <a href="#"><i class="social-icon fab fa-instagram"></i></a>
+    <a href="#"><i class="social-icon fas fa-envelope"></i></a>
+    <p>© Copyright 2022 Fardeen</p>
+  </footer>
+
+</body>
+
+</html>

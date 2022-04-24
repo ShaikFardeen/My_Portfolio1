@@ -1,0 +1,233 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5 ;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-size:1.255rem;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+
+#title{
+  background-color: #06113C;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+
+/* navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+  padding-bottom: 100px;
+
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 10px 12px 14px 13px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-link:hover{
+  color: white;
+}
+
+/* download buttons */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  border-radius: .5rem;
+}
+/* ABOUT */
+.about_head{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.about_img{
+  width: 200px;
+  border-radius: .5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+/*
+#about{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+} */
+#about{
+  padding:4.5%;
+  text-align: center;
+}
+/* Skills */
+
+#skills{
+  background-color: #06113C;
+  color: white;
+}
+
+.section_subtitle{
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+.skills_container{
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  padding-left: 44%;
+  margin-bottom: 15px;
+  line-height: 2.75;
+
+}
+
+
+/* education */
+
+.edu{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edu_box{
+  padding:4.5%;
+  text-align: center;
+}
+
+.icon{
+  color: #6D8299;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #041562;
+}
+
+
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color:  #06113C;
+  color: #fff;
+  padding: 30px 0 85px 0;
+}
+.proj_head{
+  padding: 0px 0 20px 0;
+  margin-bottom: 20px;
+}
+
+.caret{
+  padding-top: 100px;
+}
+.testimonial-text{
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+}
+.projtext{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* interest */
+.interest_subtitle{
+  text-align: center;
+  padding-top: 25px;
+}
+.carousel-inner{
+  margin-bottom: 20px;
+}
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+/* call to action */
+
+#cta{
+  background-color:  #06113C;
+  color: #fff;
+  padding:7% 15%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
+
+/* footer-heading */
+
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin:20px 30px;
+  color: #6D8299;
+}
+.social-icon:hover{
+  color:#06113C;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+
+}
+
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+  .skills_container{
+    padding-left: 35%;
+  }
+}
